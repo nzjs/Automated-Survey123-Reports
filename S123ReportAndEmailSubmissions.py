@@ -30,11 +30,6 @@ from arcgis.apps.survey123._survey import SurveyManager, Survey
 # Call this script with     python "..\S123ReportAndEmailSubmissions.py"     
 # - eg. in a Unix Cron job or Windows Task Scheduler that runs once a day - since we are always looking for submissions from the last 24 hours
 #
-#
-# Customise these variables in the code below: 
-# username, password, attachmentsGeoJSON, and outFolder
-#
-#
 # Also, this script generates the KeyError: 'results' but still works due to the try/except/finally block...
 # Related to this ESRI bug:
 # BUG-000119057 : The Python API 1.5.2 generate_report() method of the arcgis.apps.survey123 module, generates the following error: { KeyError: 'results' }

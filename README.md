@@ -1,6 +1,8 @@
 # Automated Survey123 Reports and Emailing
 
 ## What is it?
+A tool to automate Survey123 Report creation & emailing survey recipients with a copy of the report.
+
 This script takes an input Survey ID (from Survey123), a report template (uploaded to the Survey Reports (Beta) tab), and will do the following:
 
 - Generate .docx reports for any new Survey submissions from the last 24 hours,

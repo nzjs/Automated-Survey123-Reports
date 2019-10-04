@@ -26,6 +26,12 @@ API docs: https://esri.github.io/arcgis-python-api/apidoc/html/arcgis.apps.surve
 - Use with Python v3 and install the required Python libraries
 - Set the script to run daily with a Unix Cron job or Windows Task Scheduler
 
+### How is this automated?
+To automate this process, simply add the Python script as a regular task (eg. daily) in your Task Scheduler application on a Windows device. 
+
+For Linux devices, you'll need to rewrite parts of the code to point to your respective `/home` location and create a daily CRON task.
+
+
 ## Customisation
 ```python
 # --- AGOL information... ---
